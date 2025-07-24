@@ -17,7 +17,7 @@ export const routing = defineRouting({
   defaultLocale: DEFAULT_LOCALE,
 
   // auto detect locale
-  localeDetection: process.env.NEXT_PUBLIC_LOCALE_DETECTION === 'true',
+  localeDetection: false,
 
   localePrefix: 'as-needed',
 });
